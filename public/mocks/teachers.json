@@ -1,10 +1,20 @@
 [
     {
-        "name": "Bob John",
-        "title": "Mr"
+        "idNumber":"805025",
+        "title": "Mr",
+        "name": "Bob",
+        "surname": "John",
+        "dateOfBirth": "01-01-1998",
+        "teacherNUmber": 23,
+        "salary" :"150000"
     },
     {
-        "name": "John Doe",
-        "title": "Mr"
+        "idNumber":"803453",
+        "title": "Mrs",
+        "name": "Mary",
+        "surname": "John",
+        "dateOfBirth": "02-04-1998",
+        "teacherNUmber": 1,
+        "salary" :"100000"
     }
 ]

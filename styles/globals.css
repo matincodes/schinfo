@@ -25,3 +25,7 @@ label{
   background-position: top;
   background-size: 100%;
 }
+
+.error{
+  @apply pt-1 pl-2 text-sm text-red-700;
+}
