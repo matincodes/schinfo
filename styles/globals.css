@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.home{
+.main{
   background: url('/sch.jpg');
   background-position: center;
   background-size: cover;
@@ -26,6 +26,16 @@ label{
   background-size: 100%;
 }
 
+.student{
+  background: url('/classroom.svg');
+  background-size: 85%;
+  background-position: center;
+}
+
 .error{
   @apply pt-1 pl-2 text-sm text-red-700;
+}
+
+.school h1 span{
+  @apply inline-block w-full py-9;
 }

@@ -1,10 +1,9 @@
-import Nav from "@/components/Nav";
+import Layout from "@/components/Layout";
 
 export default function Home() {
-  const name = "Hello"
   return (
-    <div className="home h-screen">
-      <Nav name={name}/>
+    <div>
+      <Layout/>
     </div>
   )
 }

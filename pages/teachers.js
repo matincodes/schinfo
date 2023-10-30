@@ -13,7 +13,7 @@ export default function Teachers(){
         name: "",
         surname: "",
         dateOfBirth: "",
-        teacherNumber: 0,
+        teacherNumber: "",
         salary: ""
       };
 
@@ -36,16 +36,16 @@ export default function Teachers(){
         if (!idNumber){
             newError.idNumber = "National ID Number is required";
         }
-        if (!teacherData.title) {
+        if (!title) {
             newError.title = 'Title is required';
         }
         if (!name){
             newError.name = "Name is required";
         }
-        if (!teacherData.surname) {
+        if (!surname) {
             newError.surname = 'Surname is required';
         }
-        if (!teacherData.dateOfBirth) {
+        if (!dateOfBirth) {
             newError.dateOfBirth = 'Date of Birth is required';
         }
 
@@ -57,7 +57,7 @@ export default function Teachers(){
           newError.dateOfBirth2 = 'Age must be at least 21';
         }
 
-        if (teacherData.teacherNumber) {
+        if (!teacherNumber) {
             newError.teacherNumber = 'Teacher Number is required';
         }
         setErrors(newError);
