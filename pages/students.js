@@ -131,12 +131,12 @@ export default function Students(){
                     </label>
                     <input
                      type="text" 
-                     name='teacherNumber'
-                     value={studentData.teacherNumber}
-                     placeholder="Teacher Number"
+                     name='studentNumber'
+                     value={studentData.studentNumber}
+                     placeholder="Student Number"
                      onChange={hangleChange}
                      />
-                     {errors.studentNumber && <p className="error">{errors.teacherNumber}</p>}
+                     {errors.studentNumber && <p className="error">{errors.studentNumber}</p>}
                 </div>
                 <div className='flex justify-center items-center mb-7'>
                     <button className='p-4 px-12 bg-blue-500 text-xl font-medium text-center text-white rounded-lg'>Submit</button>
