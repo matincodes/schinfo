@@ -4,7 +4,7 @@
         "title": "Mr",
         "name": "Bob",
         "surname": "John",
-        "dateOfBirth": "01-01-1998",
+        "dateOfBirth": "1998-01-01",
         "teacherNUmber": 23,
         "salary" :"150000"
     },
@@ -13,7 +13,7 @@
         "title": "Mrs",
         "name": "Mary",
         "surname": "John",
-        "dateOfBirth": "02-04-1998",
+        "dateOfBirth": "1998-04-02",
         "teacherNUmber": 1,
         "salary" :"100000"
     }

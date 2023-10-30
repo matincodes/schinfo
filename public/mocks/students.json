@@ -1,10 +1,16 @@
 [
     {
-        "name": "Bob John",
-        "title": "Mr"
+        "idNumber":"097634",
+        "name": "Bola",
+        "surname": "John",
+        "dateOfBirth": "2005-01-01",
+        "studentNUmber": 23
     },
     {
-        "name": "John Doe",
-        "title": "Mr"
+        "idNumber":"897653",
+        "name": "Mary",
+        "surname": "John",
+        "dateOfBirth": "2006-04-01",
+        "studentNUmber": 34
     }
 ]
